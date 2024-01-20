@@ -1,0 +1,11 @@
+.resultStyle{
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    
+}

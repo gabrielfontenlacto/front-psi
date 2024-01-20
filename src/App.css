@@ -1,0 +1,80 @@
+.logo-psi {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.letras-psi {
+  position: absolute;
+  top: 17%;
+  left: 10%;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.App {
+  position: absolute;
+  background: rgb(133, 117, 180);
+  background: linear-gradient(
+    32deg,
+    rgba(133, 117, 180, 1) 16%,
+    rgba(162, 194, 235, 1) 72%
+  );
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.userForm {
+  position: absolute;
+  top: 35%;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  width: 500px;
+  height: 500px;
+  border-radius: 7px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 80%;
+    border-radius: 7px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@keyframes rotacion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.elemento-rotativo {
+  animation: rotacion 100s linear infinite;
+}
