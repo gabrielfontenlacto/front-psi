@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# UserForm Component Documentation
+
+## Descripción General
+`UserForm` es un componente React que proporciona un formulario para la creación de usuarios. Utiliza la biblioteca Ant Design para los elementos del formulario y gestiona el estado de los datos del usuario.
+
+## Funcionalidades
+- Recopilación de datos del usuario: género, nombre, apellido, correo electrónico, fecha de nacimiento, horas y coordenadas.
+- Validación de los campos del formulario.
+- Envío de los datos del usuario a un servidor backend para su almacenamiento.
+
+## Uso
+Para utilizar `UserForm` en tu proyecto, sigue estos pasos:
+
+1. Asegúrate de tener Ant Design y React instalados en tu proyecto.
+2. Importa `UserForm`:
+   ```jsx
+   import UserForm from '[ruta-a]/UserForm';
+
