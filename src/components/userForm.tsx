@@ -4,7 +4,7 @@ import { Button, Select, Input, Space, Typography , Result} from "antd";
 const { Title } = Typography;
 
 export const createUser = async (user: Usuario) => {
-  const response = await fetch("http://localhost:3001/api/users", {
+  const response = await fetch("http://localhost:3000/api/users", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
